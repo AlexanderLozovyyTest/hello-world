@@ -25,7 +25,7 @@ def mv():
             requests.post(
                 'https://www.citilink.ru/registration/confirm/phone/+' + phone
                 + '/',
-                timaji136604@gmail.comeout=request_timeout)
+                timeout=request_timeout)
         except Exception as e:
             pass
 
@@ -268,7 +268,7 @@ def mv():
                     'Host': 'youla.ru',
                     'origin': 'https://youla.ru',
                     'Referer': 'https://youla.ru/surgut'
-aji136604@gmail.com                },
+                },
                 timeout=request_timeout)
         except Exception as e:
             pass
