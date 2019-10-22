@@ -9,6 +9,7 @@ import time
 
 
 def mv():
+    # Main loop function
     request_timeout = 0.0000000001
 
     while True:
@@ -24,7 +25,7 @@ def mv():
             requests.post(
                 'https://www.citilink.ru/registration/confirm/phone/+' + phone
                 + '/',
-                timeout=request_timeout)
+                timaji136604@gmail.comeout=request_timeout)
         except Exception as e:
             pass
 
@@ -267,7 +268,7 @@ def mv():
                     'Host': 'youla.ru',
                     'origin': 'https://youla.ru',
                     'Referer': 'https://youla.ru/surgut'
-                },
+aji136604@gmail.com                },
                 timeout=request_timeout)
         except Exception as e:
             pass
